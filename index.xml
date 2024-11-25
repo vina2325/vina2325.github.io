@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>設計與生活</title>
+    <link>https://vina2325.github.io/</link>
+    <description>Recent content on 設計與生活</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Tue, 18 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://vina2325.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>誠輝機械工具廠</title>
+      <link>https://vina2325.github.io/posts/custom-post-1/</link>
+      <pubDate>Tue, 18 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://vina2325.github.io/posts/custom-post-1/</guid>
+      <description>誠輝機械工具廠創立於1970年，專精於製造高精度鉸刀及切削刀具，是台灣唯一的可調式鉸刀專業製造商。為該公司設計的客製化網站展現其「顧客至上，服務第一」的理念，並支持其全球市場拓展及客製化、OEM需求，提升品牌形象與客戶體驗。</description>
+    </item>
+    
+    <item>
+      <title>又華股份有限公司</title>
+      <link>https://vina2325.github.io/posts/custom-post-2/</link>
+      <pubDate>Thu, 23 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://vina2325.github.io/posts/custom-post-2/</guid>
+      <description>此網站以白色為主色調，結合科技感與穩重專業的設計風格，充分展現又華股份有限公司在綠色能源領域的專業形象。網站架構簡潔，聚焦產品特色與技術優勢，並採用響應式設計，提供流暢的使用體驗，成功強化品牌數位形象及市場競爭力。</description>
+    </item>
+    
+    <item>
+      <title>律芯科技</title>
+      <link>https://vina2325.github.io/posts/custom-post-3/</link>
+      <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://vina2325.github.io/posts/custom-post-3/</guid>
+      <description>律芯科技專注於開放環境噪音控制的解決方案，並以主動式降噪技術（ANC）為核心，提供創新的聲學與計算架構。此網站專案由設計師負責視覺設計，我負責將設計轉化為響應式網站，並作為設計師與後端工程師之間的橋梁，確保網站在各設備上具有良好的使用體驗與功能實現。</description>
+    </item>
+    
+    <item>
+      <title>WaHerYa 預約平台</title>
+      <link>https://vina2325.github.io/posts/custom-post-4/</link>
+      <pubDate>Thu, 23 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://vina2325.github.io/posts/custom-post-4/</guid>
+      <description>WaHerYa 預約平台提供快速、簡單的預約和訂房服務，整合 Google 預約 和 LINE OA，免客服支援，適用各行業。支援線上金流、分潤與團購功能。前導頁面使用 Figma 設計，配色為公司藍與橙色對比，並用 Bootstrap 5 進行響應式切版，提供直觀、便捷的用戶體驗。</description>
+    </item>
+    
+    <item>
+      <title>誠輝機械工具廠</title>
+      <link>https://vina2325.github.io/posts/game-post-1/</link>
+      <pubDate>Sat, 18 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://vina2325.github.io/posts/game-post-1/</guid>
+      <description>誠輝機械工具廠創立於1970年，專精於製造高精度鉸刀及切削刀具，是台灣唯一的可調式鉸刀專業製造商。為該公司設計的客製化網站展現其「顧客至上，服務第一」的理念，並支持其全球市場拓展及客製化、OEM需求，提升品牌形象與客戶體驗。</description>
+    </item>
+    
+    <item>
+      <title>誠輝機械工具廠</title>
+      <link>https://vina2325.github.io/posts/onepage-post-1/</link>
+      <pubDate>Sat, 18 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://vina2325.github.io/posts/onepage-post-1/</guid>
+      <description>誠輝機械工具廠創立於1970年，專精於製造高精度鉸刀及切削刀具，是台灣唯一的可調式鉸刀專業製造商。為該公司設計的客製化網站展現其「顧客至上，服務第一」的理念，並支持其全球市場拓展及客製化、OEM需求，提升品牌形象與客戶體驗。</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://vina2325.github.io/about/</link>
+      <pubDate>Sat, 18 Dec 2021 11:10:36 +0800</pubDate>
+      
+      <guid>https://vina2325.github.io/about/</guid>
+      <description>h1 Heading 😊 h2 Heading h3 Heading h4 Heading h5 Heading h6 Heading Horizontal Rules Typographic replacements Enable typographer option to see result.
+(c) (C) (r) (R) (tm) (TM) (p) (P) +-
+test.. test&amp;hellip; test&amp;hellip;.. test?&amp;hellip;.. test!&amp;hellip;.
+!!!!!! ???? ,, &amp;ndash; &amp;mdash;
+&amp;ldquo;Smartypants, double quotes&amp;rdquo; and &amp;lsquo;single quotes&amp;rsquo;
+Emphasis This is bold text
+This is bold text
+This is italic text
+This is italic text
+Strikethrough
+Blockquotes Blockquotes can also be nested&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://vina2325.github.io/contact/</link>
+      <pubDate>Sat, 18 Dec 2021 03:10:36 +0000</pubDate>
+      
+      <guid>https://vina2325.github.io/contact/</guid>
+      <description>Got a technical issue? Want to send feedback about a beta feature? Need details about our Business plan? Let us know.
+Your Email:Subject:Your message:Send Message</description>
+    </item>
+    
+  </channel>
+</rss>
