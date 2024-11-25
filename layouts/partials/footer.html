@@ -2,18 +2,18 @@
 <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 {{ $js := resources.Get "js/darkmode.js" | js.Build }}
 <script src="{{ $js.RelPermalink }}" defer></script>
-<footer class="bg-gray-900">
+<footer class=" bg-primary-500 bg-gradient-to-tr from-primary-600 to-secondary/70 md:sticky">
     <div class="max-w-md px-4 py-12 mx-auto overflow-hidden sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
         <nav class="flex flex-wrap justify-center -mx-5 -my-2" aria-label="Footer">
             {{ range site.Menus.footer }}
             <div class="px-5 py-2">
-                <a href="{{ .URL | absLangURL }}" class="text-base text-gray-400 hover:text-gray-300">{{ .Name }}</a>
+                <a href="{{ .URL | absLangURL }}" class="text-base text-gray-100 hover:text-gray-300">{{ .Name }}</a>
             </div>
             {{ end }}
         </nav>
         <div class="flex justify-center mt-8 space-x-6">
             {{ if .Site.Params.Social_media.Facebook.Enabled }}
-            <a href="#" class="text-gray-400 hover:text-gray-300">
+            <a href="#" class="text-gray-100 hover:text-gray-300">
                 <span class="sr-only">Facebook</span>
                 <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                     <path fill-rule="evenodd"
@@ -23,7 +23,7 @@
             </a>
             {{ end }}
             {{ if .Site.Params.Social_media.Instagram.Enabled }}
-            <a href="#" class="text-gray-400 hover:text-gray-300">
+            <a href="#" class="text-gray-100 hover:text-gray-300">
                 <span class="sr-only">Instagram</span>
                 <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                     <path fill-rule="evenodd"
@@ -33,7 +33,7 @@
             </a>
             {{ end }}
             {{ if .Site.Params.Social_media.Twitter.Enabled }}
-            <a href="#" class="text-gray-400 hover:text-gray-300">
+            <a href="#" class="text-gray-100 hover:text-gray-300">
                 <span class="sr-only">Twitter</span>
                 <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                     <path
@@ -42,7 +42,7 @@
             </a>
             {{ end }}
             {{ if .Site.Params.Social_media.Github.Enabled }}
-            <a href="#" class="text-gray-400 hover:text-gray-300">
+            <a href="#" class="text-gray-100 hover:text-gray-300">
                 <span class="sr-only">GitHub</span>
                 <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                     <path fill-rule="evenodd"
@@ -52,12 +52,12 @@
             </a>
             {{ end }}
         </div>
-        <p class="mt-8 text-base text-center text-gray-400">&copy; {{ now.Format "2006" }}
-            {{ .Site.Title }}. All rights
+        <p class="mt-8 text-base text-center text-gray-100">&copy; {{ now.Format "2006" }}
+            VINA Design & Life. All rights
             reserved.</p>
-        <p class="mt-2 text-base text-center text-gray-400">Made with &#x2764;&#xfe0f; by <a
+        <!-- <p class="mt-2 text-base text-center text-gray-300">Made with &#x2764;&#xfe0f; by <a
                href="https://nusserstudios.com" class="hover:underline hover:text-primary-600"><span
                       class="font-black uppercase">Nusser</span> <span class="font-light uppercase">Studios.</span></a>
-        </p>
+        </p> -->
     </div>
 </footer>

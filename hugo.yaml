@@ -1,5 +1,5 @@
 baseURL: 'https://vina2325.github.io/'
-title: Vina Home
+title: 設計與生活
 languageCode: zh-tw
 DefaultContentLanguage: en
 enableEmoji: true
@@ -49,8 +49,8 @@ params:
   author: Vina 佩妤
   authorimage: ../assets/images/global/author.webp
   og_image: /images/vinahome-cover.png
-  moto: "Super Fast, and Flexiblef"
-  description: "分享我的生活"
+  moto: "Vina的創意探索之旅"
+  description: "#Web Designer #Frontend Engineer #Illustrator"
   disable_theme_toggle: false
   disable_stay_uptodate: false
 
@@ -112,53 +112,45 @@ params:
 
 menu:
   main:
-    - identifier: prose
-      name: Prose
-      url: /prose/
+    - identifier:  about
+      name: 關於我
+      url:
       weight: 10
-    - identifier: about
-      name: About
-      url: /about/
-      weight: 20
-    - identifier: categories
-      pre: dropdown
-      name: Categories
-      weight: 30
     - identifier: dropdown
       pre: complexdropdown
-      name: Dropdown
-      weight: 40
+      name:  作品介紹
+      weight: 20
     - identifier: contact
-      name: Contact
+      name: 聯絡方式
       url: /contact/
-      weight: 50
-  categories:
-    - identifier: prose
-      name: Prose
-      url: /prose/
-      weight: 10
-    - identifier: about
-      name: About
-      url: /about/
-      weight: 20
+      weight: 30
+  # categories:
+  #   - identifier: prose
+  #     name: Prose
+  #     url: /prose/
+  #     weight: 10
+  #   - identifier: about
+  #     name: About
+  #     url: /about/
+  #     weight: 20
   dropdown:
-    - identifier: appearance
-      pre: stars # can be stars, comments or piechart
-      name: Appearance
-      post: "Easy customization"
-      url: "#"
+    - identifier: Custom Sites
+      pre: custom
+      name: 客製化網站
+      post: "Custom Sites"
+      url: "/categories/Custom Sites/"
       weight: 10
-    - identifier: comments
-      pre: comments # can be stars, comments or piechart
-      name: Comments
-      post: "Check your latest comments"
-      url: "#"
+    - identifier: One-Page Site
+      pre: onepage
+      name: 形象網站
+      post: "One-Page Site"
+      url: "/categories/One-Page Site/"
       weight: 20
-    - identifier: analytics
-      pre: piechart # can be stars, comments or piechart
-      name: Analytics
-      post: "Take a look at your statistics"
-      url: "#"
+    - identifier: Game Site
+      pre: game # can be stars, comments or piechart
+      name: 遊戲網站
+      post: "Game Site"
+      url:  "/categories/Game Site/"
       weight: 30
   footer:
     - identifier: about
@@ -177,8 +169,8 @@ menu:
       name: Prose
       url: /prose/
       weight: 40
-    - identifier: contact
-      name: Contact
+    - identifier: 聯絡方式
+      name: 聯絡方式
       url: /contact/
       weight: 50
 

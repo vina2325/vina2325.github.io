@@ -1,6 +1,6 @@
 {{ define "main" }}
 <main>
-    <div class="bg-gray-200 dark:bg-gray-900">
+    <div class="bg-gray-100 dark:bg-gray-900">
         <div class="max-w-screen-xl px-4 py-8 mx-auto">
             <div class="grid items-center gap-8 mb-8 sm:mb-0 lg:gap-12 lg:grid-cols-12">
                 <div class="col-span-6 px-4 text-center sm:mb-6 lg:text-left lg:mb-0">
@@ -16,8 +16,8 @@
                         {{ .Site.Params.Description}}
                     </p>
                 </div>
-                <div class="col-span-6">
-                    {{ $hero := resources.GetMatch "images/pages/tailbliss-rocket-indigo.png" }}
+                <div class="col-span-6 ">
+                    {{ $hero := resources.GetMatch "images/pages/vinahome-cover.png" }}
 
                     {{ $thumb := ($hero.Fill "400x400 webp q90") }}
                     {{ $large := ($hero.Fill "576x576 webp q90") }}
@@ -25,7 +25,7 @@
                     <img srcset="
                         {{- with $thumb.RelPermalink -}}{{.}} 400w{{- end -}}
                         {{- with $large.RelPermalink -}}, {{.}} 576w{{- end -}}" src="{{ $hero.RelPermalink }}"
-                        width="100%" height="" alt="TailBliss Hero" class="w-full max-w-xl mx-auto rounded-lg" />
+                        width="100%" height="" alt="TailBliss Hero" class="w-full object-contain max-w-xl mx-auto rounded-lg" />
                 </div>
             </div>
         </div>
@@ -139,7 +139,7 @@
     <!-- Blog section -->
     <div class="relative px-1 pt-8 pb-4 bg-transparent lg:px-8 lg:pt-12 lg:mb-4 md:mt-12">
         <div class="absolute inset-0">
-            <div class="bg-gray-200 dark:bg-gray-900/50 h-1/3 sm:h-2/3"></div>
+            <div class="bg-gray-100 dark:bg-gray-900/50 h-1/3 sm:h-2/3"></div>
         </div>
         <div class="relative px-2 mx-auto max-w-7xl">
             <div class="text-center">
