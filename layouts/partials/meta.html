@@ -1,4 +1,5 @@
-<title itemprop="name">Vina的創意探索之旅
+<title itemprop="name">{{if .IsHome}} {{ .Title }} | {{ "Vina的創意探索之旅" }}
+    {{else}} {{ .Title }} | {{ "Vina的創意探索之旅" }} {{end}}
 </title>
 <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}" />
 <meta property="og:title" content="{{ .Title }} | {{ .Site.Title }}" />
