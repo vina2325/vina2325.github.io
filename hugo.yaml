@@ -56,17 +56,18 @@ params:
   disable_stay_uptodate: false
 
   p1:
-    heading: "Our mission"
-    image: "images/pages/our-mission.png"
+    heading: "▘工作的軌跡▗"
+    image: "images/pages/project.jpg"
     content:
-      - text: "Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque. Blandit amet, sed aenean erat arcu morbi. Cursus faucibus nunc nisl netus morbi vel porttitor vitae ut. Amet vitae fames senectus vitae."
-      - text: "Sollicitudin tristique eros erat odio sed vitae, consequat turpis elementum. Lorem nibh vel, eget pretium arcu vitae. Eros eu viverra donec ut volutpat donec laoreet quam urna. Sollicitudin tristique eroserat odio sed vitae, consequat turpis elementum. Lorem nibh vel, eget pretium arcu vitae. Eros eu viverra donec ut volutpat donec laoreet quam urna."
-      - text: "Rhoncus nisl, libero egestas diam fermentum dui. At quis tincidunt vel ultricies. Vulputate aliquet velit faucibus semper. Pellentesque in venenatis vestibulum consectetur nibh id. In id ut tempus egestas. Enim sit aliquam nec, a. Morbi enim fermentum lacus in. Viverra."
+      - text: "從企劃、美編到地方創生的多元經歷，累積了撰寫企劃書、平面設計、書冊編輯、社群經營與展覽佈置等全方位行銷實務。"
+      - text: "因熱愛網站設計，進修前端開發技術，轉職為網頁設計師，專注於網頁切版、動態效果與廣告設計。
+      目前已擁有兩年網頁設計經驗，致力於結合美感與功能性，不斷優化使用者體驗。"
   p2:
-    heading: "Just in time for Hacktoberfest with JIT Tailwind."
-    image: "images/pages/hacktoberfest.jpg"
+    heading: "▘生活的細語▗"
+    image: "images/pages/life.jpg"
     content:
-      - text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at purus non enim commodo tincidunt vel in nulla. Aenean pretium dolor non ultricies bibendum. Etiam quis blandit enim. Nunc condimentum ut lorem in faucibus. Phasellus varius ligula et commodo tristique. Nunc sodales nisl nec laoreet vehicula. Donec velit nibh, sollicitudin at nulla a, egestas dignissim eros. Sed lacinia hendrerit interdum. Vestibulum pellentesque sem venenatis nisl tempor accumsan sit amet tempus felis. Mauris leo diam, porttitor nec bibendum id, tempus ac nulla. Etiam congue ornare erat at convallis. Donec in nisi dapibus, mattis risus vel, imperdiet enim. Donec fermentum sit amet tortor nec tincidunt. Nam nec lectus tortor. Nunc sit amet laoreet orci, porta ornare massa. Phasellus eget lorem mi. Nam eleifend ultricies sapien, quis mollis leo bibendum at. Quisque viverra lorem sit amet magna aliquet, et dignissim arcu eleifend."
+      - text: "熱愛設計、旅遊、登山，喜歡用攝影捕捉生活中的美好片刻，從自然的遼闊景致到日常的細微光影，都讓人心動不已。烘焙則是我的另一種創作方式，揉捏出麵團的柔韌，烤箱中散發的香氣，像極了生活的溫暖與治癒。"
+      - text: "我是個樂觀的理想主義者，擁有細膩的觀察力與熱情，善於聆聽與溝通，常在團隊中扮演協調者的角色，將不同的想法交織成完整的畫面，用心過好每一個平凡而珍貴的日子。"
   p3:
     heading: "Backed by world-renowned investors"
     content:
@@ -84,31 +85,31 @@ params:
       - identifier: e
       - identifier: f
   p4:
-    heading: "From the blog"
+    heading: "專業歷程"
     content:
-      - text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa libero labore natus atque, ducimus sed."
-  p5:
-    heading: "Stay Up to Date"
-    content:
-      - text: "Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque."
-    action: "#"
-    label: "Email address"
-    placeholder: "Enter your email"
-    button: "Notify me"
+      - text: "專注於網頁設計與開發，完成多項企業展示網站，結合視覺美感與技術實現，打造優質用戶體驗。"
+  # p5:
+  #   heading: "Stay Up to Date"
+  #   content:
+  #     - text: "Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque."
+  #   action: "#"
+  #   label: "Email address"
+  #   placeholder: "Enter your email"
+  #   button: "Notify me"
 
   social_media:
     github:
       enabled: true
-      url: 'https://github.com/nusserstudios'
+      url: 'https://github.com/vina2325'
     facebook:
       enabled: true
-      url: 'https://facebook.com/nusserstudios'
+      url: 'https://www.facebook.com/vinatsai2325?locale=zh_TW'
     instagram:
       enabled: true
-      url: 'https://instagram.com/nusserstudios'
-    twitter:
-      enabled: true
-      url: '@nusserstudios'
+      url: 'https://www.instagram.com/vina2325/'
+    # twitter:
+    #   enabled: true
+    #   url: '@nusserstudios'
     
 
 menu:
@@ -155,20 +156,20 @@ menu:
       weight: 30
   footer:
     - identifier: about
-      name: About
-      url: /about/
+      name: 關於我
+      url: 
       weight: 10
-    - identifier: blog
-      name: Blog
-      url: /categories/blog/
+    - identifier: Custom Sites
+      name: 客製化網站
+      url: /categories/Custom Sites/"
       weight: 20
-    - identifier: news
-      name: News
-      url: /categories/news/
+    - identifier: One-Page Site
+      name: 形象網站
+      url: /categories/One-Page Site/
       weight: 30
-    - identifier: prose
-      name: Prose
-      url: /prose/
+    - identifier: Game Site
+      name: 遊戲網站
+      url: /categories/Game Site/
       weight: 40
     - identifier: 聯絡方式
       name: 聯絡方式
